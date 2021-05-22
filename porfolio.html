@@ -16,39 +16,53 @@
 </head>
 
 <body>
-    <!-- Header -->
-    <header class="page-header">
-        <div class="page-header-container container">
-            <!-- Navigation menu -->
-            <nav class="page-header-nav">
-                <a class="page-header-logo-link link" href="./index.html">
-                    <span class="page-header-logo-link-beggin" lang="en">Web</span><span class="page-header-logo-link-end"
-                        lang="en">Studio</span>
-                </a>
-                <ul class="page-header-nav-menu list">
-                    <li class="page-header-nav-menu-item">
-                        <a class="page-header-nav-menu-link link" href="./index.html">Студия</a>
-                    </li>
-                    <li class="page-header-nav-menu-item">
-                        <a class="page-header-nav-menu-link current-page link" href="./porfolio.html">Портфолио</a>
-                    </li>
-                    <li class="page-header-nav-menu-item">
-                        <a class="page-header-nav-menu-link link" href="">Контакты</a>
-                    </li>
-                </ul>
-            </nav>
-            <!-- Contacts -->
-            <ul class="page-header-contacts list">
-                <li class="page-header-contacts-item">
-                    <a class="page-header-contacts-link link" href="mailto:info@devstudio.com" target="_blank"
-                        rel="noopener noreferrer">info@devstudio.com</a>
+<!-- Header -->
+<header class="page-header">
+    <div class="page-footer-container container">
+        <!-- Navigation menu -->
+        <nav class="page-header-nav">
+            <a class="page-header-logo-link link" href="./index.html">
+                <span class="page-header-logo-link-beggin" lang="en">Web</span><span class="page-header-logo-link-end"
+                    lang="en">Studio</span>
+            </a>
+            <ul class="page-header-nav-menu list">
+                <li class="page-header-nav-menu-item">
+                    <a class="page-header-nav-menu-link link" href="./index.html">Студия</a>
                 </li>
-                <li class="page-header-contacts-item">
-                    <a class="page-header-contacts-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+
+                <li class="page-header-nav-menu-item">
+                    <a class="page-header-nav-menu-link current-page link" href="./porfolio.html">Портфолио</a>
+                </li>
+
+                <li class="page-header-nav-menu-item">
+                    <a class="page-header-nav-menu-link link" href="">Контакты</a>
                 </li>
             </ul>
-        </div>
-    </header>
+        </nav>
+
+        <!-- Contacts -->
+        <ul class="page-header-contacts list">
+            <li class="page-header-contacts-item">
+                <a class="page-header-contacts-link link" href="mailto:info@devstudio.com" target="_blank"
+                    rel="noopener noreferrer">
+                    <svg class="page-footer-contacts-icon" width="16" height="12">
+                        <use href="./images/icons.svg#envelope"></use>
+                    </svg>
+                    info@devstudio.com
+                </a>
+            </li>
+
+            <li class="page-header-contacts-item">
+                <a class="page-header-contacts-link link" href="tel:+380961111111">
+                    <svg class="page-footer-contacts-icon" width="10" height="16">
+                        <use href="./images/icons.svg#smartphone"></use>
+                    </svg>
+                    +38 096 111 11 11
+                </a>
+            </li>
+        </ul>
+    </div>
+</header>
     
     <!-- Main section -->
     <main>
@@ -141,26 +155,66 @@
 
     <!-- Footer -->
     <footer class="page-footer">
-        <div class="container">
-            <a class="page-footer-logo-link link" href="./index.html">
-                <span class="page-footer-logo-link-beggin" lang="en">Web</span><span class="page-footer-logo-link-end"
-                    lang="en">Studio</span>
-            </a>
-            <address class="page-footer-contacts">
-                <ul class="page-footer-list list">
-                    <li class="page-footer-list-item">
-                        <a class="page-footer-list-link link" href="https://goo.gl/maps/8FZNoyBHCZbh9i9t6" target="_blank"
-                            rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
+        <div class="page-footer-container container">
+            <div class="page-footer-contacts-block">
+                <a class="page-footer-logo-link link" href="./index.html">
+                    <span class="page-footer-logo-link-beggin" lang="en">Web</span><span class="page-footer-logo-link-end"
+                        lang="en">Studio</span>
+                </a>
+                <address class="page-footer-contacts">
+                    <ul class="page-footer-list list">
+                        <li class="page-footer-list-item">
+                            <a class="page-footer-list-link link" href="https://goo.gl/maps/8FZNoyBHCZbh9i9t6"
+                                target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
+                        </li>
+                        <li class="page-footer-list-item">
+                            <a class="page-footer-list-link link" href="mailto:info@example.com" target="_blank"
+                                rel="noopener noreferrer">info@example.com</a>
+                        </li>
+                        <li class="page-footer-list-item">
+                            <a class="page-footer-list-link link" href="tel:+380991111111">+38 099 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+    
+            <div class="page-footer-social-medias">
+                <p class="page-footer-social-medias-title" lang="en">присоединяйтесь</p>
+                <ul class="page-footer-social-medias-list list">
+                    <li class="page-footer-social-medias-item">
+                        <a class="page-footer-social-medias-link" href="">
+                            <svg class="page-footer-social-medias-icon" width="20" height="20">
+                                <use href="./images/icons.svg#instagram"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="page-footer-list-item">
-                        <a class="page-footer-list-link link" href="mailto:info@example.com" target="_blank"
-                            rel="noopener noreferrer">info@example.com</a>
+    
+                    <li class="page-footer-social-medias-item">
+                        <a class="page-footer-social-medias-link" href="">
+                            <svg class="page-footer-social-medias-icon" width="20" height="20">
+                                <use href="./images/icons.svg#twitter"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="page-footer-list-item">
-                        <a class="page-footer-list-link link" href="tel:+380991111111">+38 099 111 11 11</a>
+    
+                    <li class="page-footer-social-medias-item">
+                        <a class="page-footer-social-medias-link" href="">
+                            <svg class="page-footer-social-medias-icon" width="20" height="20">
+                                <use href="./images/icons.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+    
+                    <li class="page-footer-social-medias-item">
+                        <a class="page-footer-social-medias-link" href="">
+                            <svg class="page-footer-social-medias-icon" width="20" height="20">
+                                <use href="./images/icons.svg#linkedin"></use>
+                            </svg>
+                        </a>
                     </li>
                 </ul>
-            </address>
+            </div>
+    
         </div>
     </footer>
     </body>
